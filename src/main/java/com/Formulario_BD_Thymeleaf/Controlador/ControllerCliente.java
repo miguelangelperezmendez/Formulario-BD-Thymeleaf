@@ -17,6 +17,7 @@ import com.Formulario_BD_Thymeleaf.Servicio.ClienteServicio;
 @RequestMapping("/formulario")
 public class ControllerCliente {
     
+     //SOLO ESTOY AGREGANDO COMENTARIOS EN LAS DIFERENTES PAGINAS PARA VERIFICAR QUE SE GUARDEN EN LA RAMA CAMBIO2
     @Autowired
     private ClienteServicio servicio;
 
