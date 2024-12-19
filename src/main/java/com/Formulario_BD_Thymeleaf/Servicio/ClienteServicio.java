@@ -12,6 +12,8 @@ import com.Formulario_BD_Thymeleaf.Repositorio.Repositorio;
 @Service
 public class ClienteServicio implements ClienteSerInterface{
 
+     //SOLO ESTOY AGREGANDO COMENTARIOS EN LAS DIFERENTES PAGINAS PARA VERIFICAR QUE SE GUARDEN EN LA RAMA CAMBIO2
+
     @Autowired
     private Repositorio repositorio;
 
