@@ -9,6 +9,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name="cliente")
 public class Cliente {
+    //SOLO ESTOY AGREGANDO COMENTARIOS EN LAS DIFERENTES PAGINAS PARA VERIFICAR QUE SE GUARDEN EN LA RAMA CAMBIO2
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
