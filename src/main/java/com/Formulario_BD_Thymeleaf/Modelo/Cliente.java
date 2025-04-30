@@ -11,6 +11,20 @@ import jakarta.persistence.Table;
 public class Cliente {
     //SOLO ESTOY AGREGANDO COMENTARIOS EN LAS DIFERENTES PAGINAS PARA VERIFICAR QUE SE GUARDEN EN LA RAMA CAMBIO2
 
+    /*
+     * BIOGRAFIA DE CLAUDIA SHEINBAUM
+     * Claudia Sheinbaum Pardo (Ciudad de México, 24 de junio de 1962) es una política, científica y académica mexicana. 
+     * Es la presidenta de México desde el 1 de octubre de 2024, siendo la primera mujer en la historia de su país en ejercer
+     *  el cargo.[7]​[8]​[9]​
+
+    Antes de asumir la presidencia de México, Sheinbaum participó activamente en el servicio público, 
+    ocupando diversos cargos de liderazgo. Fue jefa de Gobierno de la Ciudad de México de 2018 a 2023, 
+    convirtiéndose en la primera alcaldesa electa de la ciudad.[10]​[11]​ Su administración priorizó la seguridad urbana, 
+    las iniciativas ambientales y los programas sociales, incluidas notables expansiones en el transporte público y los sistemas 
+    de apoyo educativo. Su mandato también incluyó respuestas a desafíos complejos, como el colapso de la Línea 12 del Metro de l
+    a Ciudad de México y la gestión de la pandemia de COVID-19, que le valieron tanto reconocimiento como críticas.
+     */
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idCliente;
